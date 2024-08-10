@@ -263,7 +263,7 @@ export class Zigbee2MQTT extends EventEmitter {
     clientId: 'classZigbee2MQTT_' + crypto.randomBytes(8).toString('hex'),
     keepalive: 60,
     protocolId: 'MQTT',
-    protocolVersion: 5,
+    protocolVersion: 4,
     reconnectPeriod: 5000, // 1000
     connectTimeout: 60 * 1000, // 30 * 1000
     username: '',
